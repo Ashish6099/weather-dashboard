@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="weatherfavicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <div class="hero-section text-white d-flex flex-column justify-content-center align-items-center text-center p-5">
+    <h1 class="display-4 mb-2">🌤️ Weather Forecast</h1>
+    <p class="lead mb-4">Get real-time weather updates with a 5-day forecast for your city</p>
+    
+    <div class="search-bar d-flex flex-column flex-md-row justify-content-center align-items-center w-100" style="max-width: 500px;">
+      <input list="cities" type="text" id="cityInput" class="form-control rounded-pill px-4 mb-2 mb-md-0 mr-md-2" placeholder="Enter city name" />
+      <datalist id="cities"></datalist>
+      <button id="searchBtn" class="btn btn-light rounded-pill px-4">Search</button>
+    </div>
+  </div>
+
+  <!-- WEATHER DISPLAY -->
+  <div class="container py-5">
+    <div id="weather-animation" class="mb-4 text-center"></div>
+    <div id="weatherInfo" class="text-center mb-5"></div>
+    <div id="forecast" class="row justify-content-center"></div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+</body>
+</html>
