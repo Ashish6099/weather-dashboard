@@ -14,7 +14,7 @@ body {
 
 /* Remove separate background from .hero-section */
 .hero-section {
-  height: 45vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
