@@ -4,7 +4,7 @@
 
 The **Weather Dashboard** is a responsive web application that allows users to search for any city worldwide and instantly view the current weather conditions. The app fetches real-time weather data from a reliable weather API and displays detailed information such as temperature, humidity, wind speed, and weather conditions along with intuitive icons.
 
----
+
 
 ## Features
 
@@ -15,7 +15,7 @@ The **Weather Dashboard** is a responsive web application that allows users to s
 * **User-Friendly Interface:** Clean and simple UI for easy navigation and quick weather checks.
 * **Error Handling:** Proper handling of invalid city names or network issues.
 
----
+
 
 ## Technologies Used
 
@@ -24,7 +24,6 @@ The **Weather Dashboard** is a responsive web application that allows users to s
 * **JavaScript** — API calls, DOM manipulation, and app logic
 * **Weather API** — External API (e.g., OpenWeatherMap) for fetching weather data
 
----
 
 ## Installation and Usage
 
@@ -50,7 +49,7 @@ The **Weather Dashboard** is a responsive web application that allows users to s
    * Press the search button or hit enter.
    * View the current weather data displayed on the dashboard.
 
----
+
 
 ## API Setup
 
@@ -63,7 +62,7 @@ This application uses the [OpenWeatherMap API](https://openweathermap.org/api) f
    const API_KEY = 'YOUR_API_KEY_HERE';
    ```
 
----
+
 
 ## Future Enhancements
 
@@ -73,24 +72,24 @@ This application uses the [OpenWeatherMap API](https://openweathermap.org/api) f
 * Integrate geolocation to show weather for current location automatically.
 * Improve accessibility features.
 
----
+
 
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
----
+
 
 ## License
 
 This project is licensed under the MIT License.
 
----
+
 
 ## Contact
 
 Created by Ashish Rauniyar 
 
-GitHub: [https://github.com/your-username](https://github.com/Ashish6099)
+GitHub: [https://github.com/Ashish6099](https://github.com/Ashish6099)
 
 
