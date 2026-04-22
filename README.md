@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Weather Dashboard** is a responsive web application that allows users to search for any city worldwide and instantly view the current weather conditions. The app fetches real-time weather data from a reliable weather API and displays detailed information such as temperature, humidity, wind speed, and weather conditions along with intuitive icons.
+The *Weather Dashboard* is a responsive web application that allows users to search for any city worldwide and instantly view the current weather conditions. The app fetches real-time weather data from a reliable weather API and displays detailed information such as temperature, humidity, wind speed, and weather conditions along with intuitive icons.
 
 
 
